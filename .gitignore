@@ -1,0 +1,23 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/Encryption-Decryption (Java)/*
+!/Encryption-Decryption (Java)/task/
+/Encryption-Decryption (Java)/task/*
+!/Encryption-Decryption (Java)/task/src
+!/Encryption-Decryption (Java)/task/output.txt
+
+# Project exclude paths
+/Topics/Processing strings/Generating passwords/out/
+/Topics/Processing strings/Generating passwords/out/production/classes/
+/Topics/Processing strings/Move the first N characters/out/
+/Topics/Processing strings/Move the first N characters/out/production/classes/
