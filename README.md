@@ -8,9 +8,13 @@ Using this application.
    
        Start command using java Main 
 -mode [dec/enc] "this is decrypt or encrypt."
+
 -key [key] "allows if known for decryption, used to encrypt the file."
+
 -in [inputfile.txt] "if decrypting a file."
+
 -out [outputfile.txt] "if encrypting a file."
+
 -alg [shift/unicode] "the algorithm encryption type, also used to decrypt by type previously used to encrypt."
 
     Example: java Main -mode enc -key 5 -data "Hello World" -out output.txt -alg shift 
